@@ -1,0 +1,7 @@
+RewriteEngine On
+
+php_flag output_buffering on
+
+ErrorDocument 404 /index.php
+
+RewriteRule ^fm$ fm.php
